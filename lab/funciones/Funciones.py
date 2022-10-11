@@ -24,7 +24,7 @@ def SNK(n:int, k:int)->float:
 def encuentra_newton(f: Callable[[float],float], df:Callable[[float],float], a:float, e:float) -> float:
     '''
     Don de f es una expresión lambda con una función, y df es una expresión lambda que representa la derivada de f.
-    Un ejemplo de llamada podría ser: encuentra_newton(lambda x:2*x**2, lambda x:4*x)
+    Un ejemplo de llamada podría ser: encuentra_newton(lambda x:2*x**2, lambda x:4*x, 3.0, 0.001)
     
     '''
     pass
